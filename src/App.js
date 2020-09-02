@@ -3,6 +3,8 @@ import './App.css';
 import {Header} from '../src/header/Header'
 import {Main} from "./main/Main";
 import {Skills} from "./skills/Skills";
+import {Works} from "./works/Works";
+import {Сontacts} from "./ contacts/Сontacts";
 
 function App() {
     return (
@@ -10,6 +12,8 @@ function App() {
             <Header />
             <Main />
             <Skills />
+            <Works/>
+            <Сontacts/>
         </div>
     );
 }
