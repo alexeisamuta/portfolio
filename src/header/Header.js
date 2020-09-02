@@ -1,12 +1,13 @@
 import React from 'react';
 import style from './Header.module.css';
+import {Nav} from '../nav/Nav'
 
-function Header() {
+export function Header() {
     return (
         <div className={style.header}>
-            lox
+            <Nav />
         </div>
     );
 }
 
-export default App;
+// export default Header;

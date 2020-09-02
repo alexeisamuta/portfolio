@@ -1,11 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Header} from '../src/header/Header'
+import {Main} from "./main/Main";
+import {Skills} from "./skills/Skills";
 
 function App() {
     return (
         <div className="App">
-            lox
+            <Header />
+            <Main />
+            <Skills />
         </div>
     );
 }
