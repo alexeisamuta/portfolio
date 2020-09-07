@@ -1,0 +1,15 @@
+
+.footerBlock {
+    height: 30vh;
+    background-color: #a3b9e5;
+}
+
+.footerContainer {
+    flex-direction: column;
+}
+
+.sn {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

@@ -6,15 +6,15 @@ export function Сontacts() {
     return (
         <div className={style.contactsBlock}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
-                <h3 className={style.title}>Контакты</h3>
+                <h2 className={style.title}>Контакты</h2>
                 <div className={style.contacts}>
-
-                    <form>
+                    <form className={style.form}>
                         <div><input/></div>
                         <div><input/></div>
                         <div><textarea/></div>
                     </form>
                 </div>
+                <button>Отправить</button>
             </div>
         </div>
     );
