@@ -9,9 +9,9 @@ export function Сontacts() {
                 <h2 className={style.title}>Контакты</h2>
                 <div className={style.contacts}>
                     <form className={style.form}>
-                        <div><input/></div>
-                        <div><input/></div>
-                        <div><textarea/></div>
+                        <input/>
+                        <input/>
+                        <textarea/>
                     </form>
                 </div>
                 <button>Отправить</button>

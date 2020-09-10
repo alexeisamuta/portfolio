@@ -3,6 +3,10 @@
     background-color: #bf95f8;
 }
 
+.mainContainer {
+    flex-wrap: wrap;
+}
+
 .text {
     width: 300px;
     background-color: #c7c7c7;
