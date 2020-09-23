@@ -1,0 +1,17 @@
+@import './src/common/styles/sass/variables';
+
+.title {
+    /*background-color: #c7c7c7;*/
+    color: $textColor;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 80px;
+    letter-spacing: 0.5px;
+    & h3 {
+        margin: 0;
+    }
+
+}
+

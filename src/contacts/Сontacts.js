@@ -12,9 +12,10 @@ export function Сontacts() {
                         <input/>
                         <input/>
                         <textarea/>
+                        <button>Отправить</button>
                     </form>
                 </div>
-                <button>Отправить</button>
+
             </div>
         </div>
     );
