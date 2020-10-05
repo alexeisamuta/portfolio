@@ -1,0 +1,39 @@
+@import './src/common/styles/sass/variables';
+
+
+.skillsBlock {
+    //min-height: 100vh;
+    background-color: $bgColor;
+    .skillsContainer {
+        flex-direction: column;
+        justify-content: flex-start;
+        .skills {
+            //border: 1px solid;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            @media screen and (max-width: 1000px) {
+                justify-content: center;
+            }
+        }
+
+    }
+}
+
+//.skillsContainer {
+//    flex-direction: column;
+//    justify-content: flex-start;
+//
+//}
+//.title {
+//    background-color: #c7c7c7;
+//}
+//
+//.skills {
+//    border: 1px solid;
+//    width: 100%;
+//    display: flex;
+//    justify-content: space-between;
+//    flex-wrap: wrap;
+//}

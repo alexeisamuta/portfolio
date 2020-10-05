@@ -1,0 +1,25 @@
+@import './src/common/styles/sass/variables';
+
+.nav {
+    //border: 1px solid red;
+    width: 500px;
+    display: flex;
+    justify-content:space-around;
+    .link {
+        text-decoration: none;
+        /*background-color: #c7c7c7;*/
+        color: $goldColor;
+        //font-family: 'Roboto', sans-serif;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        //text-transform: uppercase;
+        line-height: 80px;
+        letter-spacing: 2.0px;
+        transition: .2s;
+        &:hover {
+            color: $bgColor;
+            transition: .2s;
+        }
+    }
+}

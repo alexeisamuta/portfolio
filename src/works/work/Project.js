@@ -1,11 +1,11 @@
 import React from 'react';
-import style from './Work.module.scss';
+import style from './Project.module.scss';
 
-export function Work(props) {
+export function Project(props) {
     return (
         <div className={style.work}>
             <div className={style.image} style={props.style}>
-                <div className={style.button}>Смотреть</div>
+                <div className={style.button}></div>
             </div>
             <div className={style.projectInfo}>
                 <h3 className={style.workTitle}>{props.title}</h3>

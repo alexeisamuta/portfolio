@@ -1,6 +1,6 @@
 @import './src/common/styles/sass/variables';
 
-@mixin text( $fontSize, $fontWeight, $lineHeight, $letterSpacing) {
+@mixin text( $fontSize, $fontWeight, $lineHeight, $letterSpacing, $textColor) {
   font-size: $fontSize;
   font-weight: $fontWeight;
   line-height: $lineHeight;

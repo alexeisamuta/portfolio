@@ -31,23 +31,34 @@
             right: 0;
             opacity: 0.4;
         }
+        //&:hover {
+        //    background-color: #74cafa;
+        //    color: #74cafa;
+        //}
 
         .button {
-            border: 1px solid black;
+            //border: 1px solid black;
             position: relative;
             z-index: 1;
+            width: 100%;
+            height: 100%;
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.16);
+            }
         }
     }
     .projectInfo {
         padding: 31px 10px 0;
         .workTitle {
-            @include text(24px,500,1.2em,0px);
-            font-family: 'Roboto', sans-serif;
+            @include text(24px,600,1.2em,0px, $textColor);
+            //font-family: 'Roboto', sans-serif;
+            font-family: 'Varela Round', sans-serif;
             margin: 0;
         }
         .description {
-            @include text(18px,400,1.5em,0px);
-            font-family: 'Mulish', sans-serif;
+            @include text(18px,400,1.5em,0px, $primaryColor);
+            //font-family: 'Mulish', sans-serif;
+            font-family: 'Varela Round', sans-serif;
             margin: 2px 0 0;
         }
     }

@@ -1,0 +1,11 @@
+@import './src/common/styles/sass/variables';
+
+.header {
+    height: 80px;
+    background-color: $textColor;
+    //background-color: $goldColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

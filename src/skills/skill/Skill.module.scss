@@ -1,0 +1,41 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+//$bgColor
+
+.skill {
+    width: 250px;
+    background-color: $bgColor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .icon {
+        width: 70px;
+        height: 70px;
+        background-color: $bgColor;
+        display: flex;
+        //background-color: #bf95f8;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        margin-top: 10px;
+        border-radius: 5px;
+        position: relative;
+    }
+    .title {
+        @include text(24px,600,1.2em,0px, $textColor);
+        //font-family: 'Roboto', sans-serif;
+        font-family: 'Varela Round', sans-serif;
+        margin: 20px 0 5px 0;
+    }
+    .description {
+        @include text(18px,400,1.5em,0px, $primaryColor);
+        //font-family: 'Mulish', sans-serif;
+        font-family: 'Varela Round', sans-serif;
+        margin: 2px 0 0;
+    }
+
+}
+
+

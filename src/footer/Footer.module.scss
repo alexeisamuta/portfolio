@@ -1,0 +1,29 @@
+@import "src/common/styles/sass/variables";
+
+.footerBlock {
+    height: 30vh;
+    background-color: $bgColor;
+    //border: 1px solid red;
+    .footerContainer {
+        flex-direction: column;
+        //align-items: center;
+        justify-content: space-around;
+        .footerName {
+            margin: 0;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 28px;
+            font-weight: 600;
+        }
+        .sn {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+        }
+    }
+}
+
+
+

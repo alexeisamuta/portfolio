@@ -1,13 +1,13 @@
 import React from 'react';
-import style from './Works.module.scss';
+import style from './Projects.module.scss';
 import styleContainer from '../common/styles/Container.module.css'
-import {Work} from './work/Work';
+import {Project} from './work/Project';
 import {Title} from '../common/components/title/Title';
 import todoImage from './../assets/image/todo2.jpg';
-import socialImage from './../assets/image/sn.jpg';
+import socialImage from './../assets/image/snIM2.jpg';
 
 
-export function Works() {
+export function Projects() {
 
     const social = {
         backgroundImage: `url(${socialImage})`,
@@ -18,12 +18,13 @@ export function Works() {
     return (
         <div className={style.worksBlock}>
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
-                <Title text={"Projects"}/>
+                {/*<Title text={"Projects"}/>*/}
+                <Title text={"Latest"} lastWord={"Projects"}/>
                 <div className={style.works}>
-                    <Work style={social}
+                    <Project style={social}
                           title={"Social Network"}
                           description={"Almost before we knew it, we had left the ground.Almost before we knew it, we had left the ground."}/>
-                    <Work style={todolist}
+                    <Project style={todolist}
                           title={"To Do List"}
                           description={"Almost before we knew it, we had left the ground.2"}/>
                     {/*<Work title={"Project 3"} description={"Almost before we knew it, we had left the ground.3"}/>*/}
