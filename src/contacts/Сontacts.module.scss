@@ -1,7 +1,7 @@
 @import './src/common/styles/sass/variables';
 
 .contactsBlock {
-  height: 70vh;
+  //height: 70vh;
   background-color: $bgColor;
 
   .contactsContainer {
@@ -75,7 +75,7 @@
       }
 
       & button {
-        width: 30%;
+        //width: 30%;
         margin: 30px auto;
         //font-weight: 700;
         color: $textColor;
