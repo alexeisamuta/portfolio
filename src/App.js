@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import {Header} from '../src/header/Header'
+import {Header} from './header/Header'
 import {Main} from "./main/Main";
 import {Skills} from "./skills/Skills";
 import {Projects} from "./works/Projects";
-import {Сontacts} from "./contacts/Сontacts";
+import {Contacts} from "./contacts/Сontacts";
 import {Footer} from "./footer/Footer";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
             <Main />
             <Skills />
             <Projects/>
-            <Сontacts/>
+            <Contacts/>
             <Footer/>
         </div>
     );

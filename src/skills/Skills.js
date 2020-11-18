@@ -4,18 +4,18 @@ import styleContainer from '../common/styles/Container.module.css'
 import {Skill} from "./skill/Skill";
 import {Title} from "../common/components/title/Title";
 import reactIcon from './../assets/image/react2.png'
-import TSIcon from './../assets/image/typescriptPNG.png'
-import CssIcon from './../assets/image/css1.png'
+import CssIcon from './../assets/image/CSSImage.png'
 import ReduxIcon from './../assets/image/redux.png'
-import HTMLIcon from './../assets/image/html.png'
+import HTMLIcon from './../assets/image/HTMLImage.png'
+import JSIcon from './../assets/image/javascript.png'
 
 export function Skills() {
 
     const reactImage = {
         backgroundImage: `url(${reactIcon})`,
     };
-    const typescriptImage = {
-        backgroundImage: `url(${TSIcon})`,
+    const JSImage = {
+        backgroundImage: `url(${JSIcon})`,
     };
     const cssImage = {
         backgroundImage: `url(${CssIcon})`,
@@ -33,20 +33,20 @@ export function Skills() {
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title text={"My"} lastWord={"Skills"}/>
                 <div className={style.skills}>
-                    <Skill title={"TypeScript"}
-                           description={"This section is dedicated to the JavaScript language itself"}
-                           style={typescriptImage}/>
+                    <Skill title={"JavaScript"}
+                           description={"Good knowledge of JavaScript + experience with TypeScript. Daily practicing with codewars-like web-sites. Understanding of objects, function expression and function declaration, promises. Deep object and array copying. Familiar with ES6 syntax, arrow functions etc."}
+                           style={JSImage}/>
                     <Skill title={"CSS"}
-                           description={"and not the parts that are specific to Web pages or other host environments."}
+                           description={"Knowledge of all main CSS 3 features, including shadows, gradients, transitions or animations, as well as new layouts like multi-columns, flexible box or grid layouts. Deep understanding of flex-based design. Knowledge of SASS/SCSS prepros."}
                            style={cssImage}/>
                     <Skill title={"React"}
-                           description={"For information about API specifics to Web pages, please see Web APIs and DOM."}
+                           description={"Professional usage of React library. Class components, including life-cycles and local state managing, HOCs, container components, MSTP & MDTP. Functional components and Hooks (useState, useEffect, useReducer, etc). State management using React-Redux library (useSelector and useDispatch). React + TypeScript deep understanding"}
                            style={reactImage}/>
                     <Skill title={"Redux"}
-                           description={"For information about API specifics to Web pages, please see Web APIs and DOM."}
+                           description={"FLUX workflow, state management, Middlewares, Redux Thunk knowledge, Actions and Action creators, reducers, createStore, dispatch, immutable state changing. Deep understanding of UI => BLL => DAL workflow"}
                            style={reduxImage}/>
                     <Skill title={"HTML"}
-                           description={"For information about API specifics to Web pages, please see Web APIs and DOM."}
+                           description={"Deep knowledge of HTML 5 structure and semantic tags. Correct usage of block names to create corresponding page layout."}
                            style={HTMLImage}/>
                 </div>
             </div>

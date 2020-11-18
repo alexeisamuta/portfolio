@@ -3,6 +3,7 @@
 
 
 .work {
+    margin-top: 30px;
     display: flex;
     width: 400px;
     background-color: $bgColor;
@@ -13,7 +14,6 @@
         display: flex;
         width: 100%;
         height: 350px;
-        //background-color: #bf95f8;
         justify-content: center;
         align-items: center;
         background-size: cover;
@@ -31,13 +31,7 @@
             right: 0;
             opacity: 0.4;
         }
-        //&:hover {
-        //    background-color: #74cafa;
-        //    color: #74cafa;
-        //}
-
         .button {
-            //border: 1px solid black;
             position: relative;
             z-index: 1;
             width: 100%;

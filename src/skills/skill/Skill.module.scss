@@ -11,8 +11,8 @@
     text-align: center;
     margin-bottom: 40px;
     .icon {
-        width: 70px;
-        height: 70px;
+        width: 100px;
+        height: 100px;
         background-color: $bgColor;
         display: flex;
         //background-color: #bf95f8;
@@ -25,13 +25,13 @@
         position: relative;
     }
     .title {
-        @include text(24px,600,1.2em,0px, $textColor);
+        @include text(22px,600,1.2em,0px, $textColor);
         //font-family: 'Roboto', sans-serif;
         font-family: 'Varela Round', sans-serif;
         margin: 20px 0 5px 0;
     }
     .description {
-        @include text(18px,400,1.5em,0px, $primaryColor);
+        @include text(16px,400,1.5em,0px, $primaryColor);
         //font-family: 'Mulish', sans-serif;
         font-family: 'Varela Round', sans-serif;
         margin: 2px 0 0;
