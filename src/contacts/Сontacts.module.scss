@@ -1,19 +1,12 @@
 @import './src/common/styles/sass/variables';
 
 .contactsBlock {
-  //height: 70vh;
   background-color: $bgColor;
 
   .contactsContainer {
     justify-content: space-around;
     flex-direction: column;
-
-    .title {
-
-    }
-
     .contacts {
-      /*border: 1px solid;*/
       width: 500px;
       height: 400px;
       display: flex;
@@ -84,7 +77,7 @@
         border-radius: 5px;
         background: $goldColor;
         //box-shadow: 0 -3px black inset;
-        transition: 1.7s;
+        transition: 0.7s;
         border: 1px $bgColor solid;
         font-family: 'Varela Round', sans-serif;
         font-size: 15px;
@@ -92,8 +85,12 @@
         &:hover {
           background: $bgColor;
           border: 1px $goldColor solid;
-          transition: 0.7s;
+          transition: 0.5s;
 
+        }
+        &:disabled {
+          background: silver;
+          border: 1px silver solid;
         }
       }
 
