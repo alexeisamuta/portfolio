@@ -6,7 +6,7 @@ import ReactTypingEffect from 'react-typing-effect';
 
 export function Main() {
     return (
-        <div className={style.mainBlock}>
+        <div id={"home"} className={style.mainBlock}>
             <Bounce bottom>
                 <div className={`${styleContainer.container} ${style.mainContainer}`}>
                     <div className={style.text}>
